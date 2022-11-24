@@ -1,0 +1,159 @@
+/*.box-1 {
+  width: 200px;
+  height: 150px;
+  background-image: linear-gradient(to left, red, green, blue);
+  margin: 50px 100px;
+  border-radius: 20px;
+}
+
+.box-2 {
+  width: 200px;
+  height: 150px;
+
+  background-image: radial-gradient(circle, red, green, blue);
+  margin: 50px 100px;
+  border-radius: 20px;
+}
+
+.box-1:hover {
+  cursor: pointer;
+  background-image: linear-gradient(to right, red, blue);
+}
+
+.box-2:after {
+  cursor: pointer;
+  background-image: radial-gradient(circle, red, blue);
+}
+
+.BTN-1 {
+  display: inline;
+  padding: 20px 25px;
+  border-radius: 10px;
+  margin: 50PX 200PX;
+  border: none;
+  background-image: linear-gradient(to right, red, blue);
+}
+
+.BTN-1:hover {
+  cursor: pointer;
+  background-image: linear-gradient(to left, red, blue);
+}
+
+.BTN-1:active {
+  background-image: linear-gradient(to top left, red, blue);
+}
+
+.btn-2 {
+  display: inline;
+  padding: 20px 55px;
+  border-radius: 10px;
+  margin: 50PX 200PX;
+  border: none;
+  background-image: linear-gradient(to left, green, red);
+}
+
+.btn-2:hover {
+  cursor: pointer;
+  background-image: linear-gradient(to left bottom, red, blue);
+}*/
+.box-1 {
+  width: 250px;
+  height: 200px;
+  border-radius: 10px;
+  left: 10px;
+  position: relative;
+  background-image: linear-gradient(to right, red, blue);
+}
+
+.box-1:hover {
+  cursor: pointer;
+  background-image: linear-gradient(to top left, blue, green, red);
+}
+
+.box-2 {
+  width: 300px;
+  height: 250px;
+  border-radius: 10px;
+
+  text-align: center;
+  background-image: radial-gradient(circle, blue, aqua, pink, red);
+}
+
+.box-2:hover {
+  cursor: pointer;
+  background-image: radial-gradient(circle, white, black, gray);
+}
+
+.btn-1 {
+  padding: 25px 55px;
+  border: none;
+  border-radius: 10px;
+  margin: 5px 10px;
+
+  background-image: linear-gradient(to top right, red, blue, black);
+}
+
+.btn-1:hover {
+  cursor: pointer;
+  background-image: linear-gradient(to top left, black, white, gray);
+}
+
+.btn-2 {
+  padding: 25px 55px;
+  border: none;
+  border-radius: 10px;
+  margin: 5px 10px;
+  background-image: radial-gradient(circle, red, pink, black);
+}
+
+.btn-2:hover {
+  cursor: pointer;
+  background-image: radial-gradient(circle, blue, green, yellow);
+}
+
+.clear {
+  clear: both;
+}
+
+.blur {
+  width: 100px;
+  height: 200px;
+  border-radius: 15px;
+  filter: blur(1.5px);
+  text-align: center;
+}
+
+.grightness {
+  width: 100px;
+  height: 200px;
+  border-radius: 15px;
+  filter: brightness(0.1);
+}
+
+.contras {
+  width: 100px;
+  height: 200px;
+  border-radius: 15px;
+  filter: contrast(0.5);
+}
+
+.gray {
+  width: 100px;
+  height: 200px;
+  border-radius: 15px;
+  filter: grayscale(1.5);
+}
+
+.hue {
+  width: 100px;
+  height: 200px;
+  border-radius: 15px;
+  filter: hue-rotate(10);
+}
+
+.invert {
+  width: 100px;
+  height: 200px;
+  border-radius: 15px;
+  filter: invert(5);
+}
